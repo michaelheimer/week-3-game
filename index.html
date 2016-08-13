@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hagman game</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/game.css">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+<!-- <script> -->
+   <script src="assets/javascript/game.js"></script>
+
+
+    <header>
+    <table>
+     <tr>
+      <td>
+	    <img src="assets/images/46154752-simple-hand-drawn-doodle-of-a-hangmans-noose.jpg">
+	  </td>
+	  <td>
+          <h1>Hangman!</h1>
+      </td>
+      <td>
+      	<img src="assets/images/46154752-simple-hand-drawn-doodle-of-a-hangmans-noose.jpg">
+      </td>
+     </tr>
+     </table>
+     </header>
+   
+        <!-- div holding the spaces where guess word is -->
+    <div id = "guessPlace" class="GuessWrapper">
+    </div>
+
+    <canvas id="canvas" width="300" height="250"
+        style="border:1px solid #d3d3d3;">
+    </canvas>    
+    <br>
+      <!-- div holding letters to guess -->
+    <div id = "letterHolder">   
+    </div>
+
+    
+      <!-- button to start game -->
+    <div class= "buttonHolder">
+       <button id="start">Start</button>
+   </div>
+    
+  <br>
+  
+</body>
+</html>
